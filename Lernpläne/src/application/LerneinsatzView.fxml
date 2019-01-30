@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="630.0" prefWidth="969.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LerneinsatzController">
+   <children>
+      <AnchorPane layoutX="-28.0" layoutY="-5.0" prefHeight="640.0" prefWidth="1000.0">
+         <children>
+            <Button fx:id="btBerechnen" layoutX="430.0" layoutY="515.0" mnemonicParsing="false" onAction="#berechnenLernerfolg" prefHeight="31.0" prefWidth="103.0" text="Berechnen" textAlignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <TextField fx:id="tfJavaGrundlagenStunden" Text="10" alignment="TOP_LEFT" layoutX="230.0" layoutY="268.0" prefHeight="37.0" prefWidth="49.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor></TextField>
+            <Label layoutX="364.0" layoutY="87.0" text="Planen Sie Ihr Lernen" textAlignment="CENTER">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfJavaFXGrundlagenStunden" Text="10" alignment="TOP_LEFT" layoutX="230.0" layoutY="328.0" prefHeight="37.0" prefWidth="49.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tfJavaFXSpielereienStunden" Text="0" alignment="TOP_LEFT" layoutX="230.0" layoutY="388.0" prefHeight="37.0" prefWidth="49.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tfJavaGrundlagenPunkte" Text="0" alignment="TOP_LEFT" editable="false" layoutX="779.0" layoutY="268.0" prefHeight="37.0" prefWidth="49.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tfJavaFXGrundlagenPunkte" Text="0" alignment="TOP_LEFT" editable="false" layoutX="779.0" layoutY="328.0" prefHeight="37.0" prefWidth="49.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tfPunktesumme" Text="0" alignment="TOP_LEFT" editable="false" layoutX="779.0" layoutY="465.0" prefHeight="37.0" prefWidth="49.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tfFehlermeldung" alignment="TOP_LEFT" editable="false" layoutX="150.0" layoutY="574.0" prefHeight="37.0" prefWidth="688.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <Label fx:id="lbJavaFXSpielereienStunden" layoutX="55.0" layoutY="396.0" text="JAVAFX Spielereien" />
+            <Label fx:id="lbJavaFXGrundlagenStunden" layoutX="54.0" layoutY="336.0" text="Java FX Grundlagen" />
+            <Label fx:id="lbJavaGrundlagenStunden" layoutX="54.0" layoutY="276.0" text="Java Grundlagen" />
+            <Label layoutX="194.0" layoutY="221.0" text="Einsatz in Stunden" />
+            <Label layoutX="373.0" layoutY="221.0" text="Wichtigkeit" />
+            <Label layoutX="84.0" layoutY="66.0" text="Motivationspunkte" />
+            <TextField fx:id="tfMotivsationspunkte" Text="100" alignment="TOP_LEFT" editable="false" layoutX="85.0" layoutY="101.0" prefHeight="37.0" prefWidth="49.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tfJavaGrundlagenWichtigkeit" Text="11" alignment="TOP_LEFT" layoutX="373.0" layoutY="268.0" prefHeight="37.0" prefWidth="49.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tfJavaFXGrundlagenWichtigkeit" Text="9" alignment="TOP_LEFT" layoutX="373.0" layoutY="328.0" prefHeight="37.0" prefWidth="49.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <Label layoutX="762.0" layoutY="221.0" text="Erreichte Punkte" />
+            <Label layoutX="516.0" layoutY="221.0" text="Motivationsfördernde Wirkung" />
+            <TextField fx:id="tfJavaFXSpielereienMotivationsförderung" Text="7" alignment="TOP_LEFT" editable="false" layoutX="552.0" layoutY="388.0" prefHeight="37.0" prefWidth="49.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tfJavaFXSpielereienWichtigkeit" Text="4" alignment="TOP_LEFT" layoutX="373.0" layoutY="388.0" prefHeight="37.0" prefWidth="49.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tfJavaFXSpielereienPunkte" Text="0" alignment="TOP_LEFT" layoutX="779.0" layoutY="388.0" prefHeight="37.0" prefWidth="49.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tfJavaGrundlagenMotivationsförderung" Text="2" alignment="TOP_LEFT" editable="false" layoutX="552.0" layoutY="268.0" prefHeight="37.0" prefWidth="49.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tfJavaFXGrundlagenMotivationsförderung" Text="3" alignment="TOP_LEFT" editable="false" layoutX="552.0" layoutY="328.0" prefHeight="37.0" prefWidth="49.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
