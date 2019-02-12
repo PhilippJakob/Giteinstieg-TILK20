@@ -2,7 +2,7 @@ package türen;
 
 public class Tür
 {
-	int anzahlScharniere = 2;
+	int anzahlScharniere = 4;
 	
 	public void methodeFürConflictJakob1()
 	{}
