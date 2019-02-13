@@ -5,7 +5,7 @@ public class Scharnier
 
 		public void bohren()
 	{
-		
+		System.out.println("schreib mal den code für bohren, danke");
 	}
 
 
