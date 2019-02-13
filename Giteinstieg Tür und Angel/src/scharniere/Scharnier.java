@@ -5,7 +5,7 @@ public class Scharnier
 
 		public void bohren()
 	{
-		
+		asd;
 	}
 
 
