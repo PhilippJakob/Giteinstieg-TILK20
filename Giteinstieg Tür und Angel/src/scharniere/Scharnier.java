@@ -9,6 +9,7 @@ public class Scharnier
 
 		System.out.println("Schanier schnell bohren");
 
+		System.out.println("Murat stinkt :P");
 	}
 
 
