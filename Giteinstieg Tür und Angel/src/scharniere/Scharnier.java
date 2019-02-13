@@ -3,9 +3,9 @@ package scharniere;
 public class Scharnier
 {
 
-		public void bohren()
+	public void bohren()
 	{
-		
+		System.out.println("Ich bohre nicht");
 	}
 
 
