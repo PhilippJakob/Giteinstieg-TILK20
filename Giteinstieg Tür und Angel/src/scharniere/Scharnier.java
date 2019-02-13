@@ -5,7 +5,7 @@ public class Scharnier
 
 	public void bohren()
 	{
-		System.out.println("Ich bohre nicht");
+		System.out.println("Ich bohre nicht. Oder doch?");
 	}
 
 
