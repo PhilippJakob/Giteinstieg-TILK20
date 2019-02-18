@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="669.0" prefWidth="621.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vergleichSortieralgorithmen.VergleichSortieralgorithmenController">
+   <children>
+      <AnchorPane layoutX="-111.0" layoutY="-96.0" prefHeight="186.0" prefWidth="425.0">
+         <children>
+            <Label layoutX="227.0" layoutY="120.0" prefHeight="52.0" prefWidth="237.0" text="Vergleich von Sortieralgorithmen" textFill="#570c0c">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfAnzahlEintraege" layoutX="346.0" layoutY="180.0" prefHeight="39.0" prefWidth="109.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <Label layoutX="264.0" layoutY="174.0" prefHeight="52.0" prefWidth="61.0" text="Anzahl" textFill="#570c0c">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="btBubbleSort" layoutX="27.0" layoutY="196.0" mnemonicParsing="false" onAction="#sortierenBubbleStyle" prefHeight="39.0" prefWidth="109.0" text="BubbleSort " textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btQuickSort" layoutX="27.0" layoutY="245.0" mnemonicParsing="false" onAction="#sortierenQuickStyle" prefHeight="39.0" prefWidth="109.0" text="QuickSort" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btMergeSort" layoutX="27.0" layoutY="296.0" mnemonicParsing="false" onAction="#sortierenMergeStyle" prefHeight="39.0" prefWidth="109.0" text="MergeSort" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="157.0" layoutY="144.0" prefHeight="52.0" prefWidth="144.0" text="Laufzeit mit ArrayList" textFill="#570c0c">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbAnzahlEintraegeDB" layoutX="394.0" layoutY="94.0" text="Anzahl Eintraege in DB" />
+      <Label fx:id="lbLaufzeitBubbleSortAL" layoutX="161.0" layoutY="205.0" text="lbLaufzeitBubbleSort_AL" />
+      <Label fx:id="lbLaufzeitQuickSortAL" layoutX="163.0" layoutY="256.0" text="lbLaufzeitQuickSortAL" />
+      <Label fx:id="lbLaufzeitMergeSortAL" layoutX="163.0" layoutY="307.0" text="lbLaufzeitMergeSortAL" />
+      <ScrollPane layoutX="27.0" layoutY="368.0" prefHeight="200.0" prefWidth="428.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="216.0" prefWidth="407.0">
+               <children>
+                  <TableView id="tvWindgschwindigkeiten" fx:id="tvWindDaten" prefHeight="200.0" prefWidth="406.0">
+                    <columns>
+                      <TableColumn fx:id="tcZeitstempel" prefWidth="194.0" text="Zeitstempel" />
+                      <TableColumn fx:id="tcGeschwindigkeit" prefWidth="210.0" text="Windgeschwindigkeit" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <Label fx:id="lbLaufzeitBubbleSortLL" layoutX="347.0" layoutY="207.0" text="lbLaufzeitBubbleSort_LL" />
+      <Label fx:id="lbLaufzeitQuickSortLL" layoutX="343.0" layoutY="256.0" text="lbLaufzeitQuickSortLL" />
+      <Label fx:id="lbLaufzeitMergeSortLL" layoutX="340.0" layoutY="307.0" text="lbLaufzeitMergeSortLL" />
+   </children>
+</AnchorPane>
