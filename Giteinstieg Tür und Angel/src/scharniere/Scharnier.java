@@ -2,10 +2,10 @@ package scharniere;
 
 public class Scharnier
 {
-
+	//ich habe keine ahnung
 		public void bohren()
-	{
-		d
+	{	
+			
 	}
 
 
