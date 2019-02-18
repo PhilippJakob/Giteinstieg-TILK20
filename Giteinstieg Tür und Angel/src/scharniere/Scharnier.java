@@ -5,7 +5,7 @@ public class Scharnier
 
 		public void bohren()
 	{
-	1=0	
+			System.out.println("use Hammer!!!");
 	}
 
 
