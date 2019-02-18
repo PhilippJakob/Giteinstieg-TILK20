@@ -3,7 +3,7 @@ package scharniere;
 public class Scharnier
 {
 
-		public void bohren()
+		public void bohren1()
 	{
 			
 		System.out.println("asd");
