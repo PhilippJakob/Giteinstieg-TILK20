@@ -2,7 +2,7 @@ package scharniere;
 
 public class Scharnier
 {
-int bohrlöcher = 3 ;
+int bohrlöcher = 4 ;
 		public void bohren()
 	{
 		
