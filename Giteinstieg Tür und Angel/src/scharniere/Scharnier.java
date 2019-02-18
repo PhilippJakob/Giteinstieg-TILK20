@@ -9,7 +9,7 @@ public class Scharnier
 		//hellouu
 
 		System.out.println("Test von RAWADOS MUHAHAHAHAHAHAAAAAAAAAAAA");
-
+		System.out.println("test from home :D");
 	}
 
 
