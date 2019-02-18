@@ -4,7 +4,7 @@ public class Scharnier
 {
 
 		public void bohren()
-	{
+	
 			
 		System.out.println("asd");
 
@@ -25,4 +25,4 @@ public class Scharnier
 	{}
 
 
-}
+
