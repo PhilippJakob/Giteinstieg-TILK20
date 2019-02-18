@@ -7,7 +7,7 @@ public class Scharnier
 	{
 		System.out.println("aasd");
 
-		System.out.println("Schanier schnell bohren");
+
 
 	}
 
