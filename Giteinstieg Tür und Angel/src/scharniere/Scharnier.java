@@ -16,7 +16,12 @@ public class Scharnier
 
 
 	public void anschraubenAmTürrahmen()
-	{}
+	{
+		
+		
+		System.out.println("guten tag ");
+		
+	}
 
 
 }
