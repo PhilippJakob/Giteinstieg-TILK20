@@ -12,12 +12,15 @@ public class Scharnier
 
 
 	public void anschraubenAnTür()
-	
-	{System.out.println("use Hammer!!!");}
+	{
+		System.out.println("use Hammer!!!");
+	}
 
 
 	public void anschraubenAmTürrahmen()
-	{}
+	{
+		
+	}
 
 
 }
