@@ -11,7 +11,7 @@ public class Scharnier
 		System.out.println("aasd");
 
 
-		System.out.println("Schanier schnell in meine hose bohren");
+		System.out.println("Schanier schnell in meine hose bohren ein ganz tiefes loch");
 
 	}
 
