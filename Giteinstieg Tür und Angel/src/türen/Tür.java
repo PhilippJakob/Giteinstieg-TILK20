@@ -8,6 +8,11 @@ public class Tür
 	{}
 
 	public void anbringenSchloßblende()
-	{}
+	{
+		System.out.println("------------test---------------");
+		
+		
+		
+	}
 	
 }
