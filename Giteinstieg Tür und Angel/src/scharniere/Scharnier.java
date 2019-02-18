@@ -9,7 +9,7 @@ public class Scharnier
 
 		System.out.println("Schanier schnell bohren");
 
-		System.out.println("Rawad is cool :)");
+		System.out.println("Rawad ist cool :)");
 	}
 
 
